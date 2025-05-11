@@ -1,2 +1,26 @@
-node_modules
-dist
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore environment & sensitive files
+.env
+*.env
+
+# Ignore system-level folders
+/Users/
+/Documents/
+/Downloads/
+/Music/
+/Pictures/
+/Videos/
+/AppData/
+/.vscode/
+/.ssh/
+/.gitconfig
+.bash_history
+.ntuser*
+
+# Ignore editor-specific stuff
+*.swp
+*.tmp
