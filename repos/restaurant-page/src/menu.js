@@ -1,22 +1,23 @@
 export default function loadMenu() {
-    const menu = document.createElement("div");
+    const menu = document.createElement("div"); 
     menu.classList.add("menu");
 
-    const item1 = document.createElement("p");
-    item1.textContent = "Spaghetti Bolognese";
+   const list = document.createElement("ul");
 
-    const item2 = document.createElement("p");
-    item2.textContent = "Marherita Pizza";
+   const items = ["Spaghetti Bologese", "Margherite Pizza", "Ceasar Salad"];
+   items.forEach(text => {
+    const li = document.createElement("li");
+    li.textContent = text;
+    list.appendChild(li);
+   });
 
-    const item3 = document.createElement("p");
-    item3.textContent = "Caesar Salad";
-
-    menu.appendChild(item1);
-    menu.appendChild(item2);
-    menu.appendChild(item3);
-
+  
+    menu.appendChild(list);
     return menu;
 }
+
+
+
 
 
 

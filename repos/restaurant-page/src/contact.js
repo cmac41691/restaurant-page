@@ -18,10 +18,5 @@ export default function loadContact(){
 
 
     return contact;
+
 }
-
-
-
-
-
-
