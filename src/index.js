@@ -1,8 +1,18 @@
+import "./style.css";
+function setActiveButton(button){
+
+document.querySelectorAll("button").forEach(btn =>
+btn.classList.remove("active")
+);
+button.classList.add("active");    
+}
+
 import loadMenu from "./menu";
 import loadHome from "./home";
 import loadContact from "./contact";
 
 const content = document.getElementById("content");
+
 content.textContent = "";
 content.appendChild(loadHome());
 
@@ -22,6 +32,16 @@ content.textContent= "";
 setActiveButton(document.getElementById("contact-tab"))
 content.appendChild(loadContact());
 });
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,7 +11,7 @@ This is a dynamic single-page restaurant website built with JavaScript and bundl
 
 ## 🚀 Live Demo
 Check out the live site here:  
-👉 [https://cmac41691.github.io/restaurant-page/](https://cmac41691.github.io/restaurant-page/)
+👉 [https://cmac41691.github.io/restaurant-page/](https://cmac41691.github.io/restaurant-page/) 
 
 ## 📁 Project Structure
 restaurant-page/

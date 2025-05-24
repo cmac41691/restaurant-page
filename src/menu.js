@@ -12,7 +12,7 @@ export default function loadMenu() {
    });
 
   
-    menu.appendChild(list);
+    menu.appendChild(list); 
     return menu;
 }
 

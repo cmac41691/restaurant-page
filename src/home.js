@@ -10,7 +10,7 @@ export default function loadHome(){
     description.textContent = "Enjoy handcraft meals, fresh ingredients, and warm atomosphere. ";
 
 
-    home.appendChild(heading);
+    home.appendChild(heading); 
     home.appendChild(description);
 
     return home;

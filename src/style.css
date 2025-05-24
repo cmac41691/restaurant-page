@@ -38,7 +38,7 @@ button {
 
 /* Hover and Active Styles */
 button:hover {
-    background-color: #555;
+    background-color: #555; 
     color: #fff;
 }
 

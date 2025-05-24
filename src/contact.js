@@ -2,7 +2,7 @@ export default function loadContact(){
     const contact = document.createElement("div");
     contact.classList.add("contact");
     
-    const heading = document.createElement("h1");
+    const heading = document.createElement("h1"); 
     heading.textContent = "Contact Us";
 
     const phone = document.createElement("p");
